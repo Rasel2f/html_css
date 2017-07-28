@@ -1,0 +1,129 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+
+.newsletter-bg {
+    background: url(../img/bg1.jpg);
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 150px;   
+}
+
+.newsletter-bg h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 38px;
+}
+
+.newsletter-bg:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #333;
+    z-index: -1;
+    opacity: .4;
+}
+
+.newsletter-form input[type=email] {
+    padding: 9px 20px;
+    border: 1px solid #8e8582;
+    background: #333;
+    opacity: .7;
+    width: 77%;
+    border-radius: 50px;
+}
+
+.newsletter-form input[type=submit] {
+    background: #34b79d;
+    border: none;
+    width: 21%;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+p.signup-text {
+    margin-top: 16px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+.border-box {
+    overflow: hidden;
+    border-right: 1px solid #ededed;
+    margin-top: -160px;
+    z-index: 9;
+    position: relative;
+    background: #fff;
+}
+
+.single-border-box {
+    float: left;
+    width: 50%;
+    border-left: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    padding: 50px 80px;
+    text-align: center;
+    min-height: 253px;
+}
+
+.single-border-box h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+
+.single-testimonial-box {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+p.author {
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #000;
+}
+
+a.box-btn {
+    background: #000;
+    color: #fff;
+    padding: 7px 28px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50px;
+}
