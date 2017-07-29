@@ -1,0 +1,141 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.box-bg-1{background: url(../img/f1.jpg)}
+.box-bg-2{background: url(../img/f2.jpg)}
+.box-bg-3{background: url(../img/f3.jpg)}
+.box-bg-4{background: url(../img/f4.jpg)}
+.box-bg-5{background: url(../img/f5.jpg)}
+.box-bg-6{background: url(../img/f6.jpg)}
+
+.section-title h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.box-bg {
+    background-size: cover;
+    background-color: #ddd;
+    background-position: center top;
+    height: 334px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 22px;
+}
+
+.ticker {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    background: #333;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.ticker-green {
+    background: #34B772;
+}
+
+.ticker-red {
+    background: #f55151;
+}
+
+.product-hover-bottom {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+    background: #fff;
+    bottom: -30px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-hover-bottom
+ a {
+    display: block;
+    float: left;
+    width: 33.3333%;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 19px;
+    text-align: center;
+    color: #333;
+}
+
+.product-hover-bottom
+ a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.single-product-box {
+    text-align: center;
+}
+
+.single-product-box h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p.product-price {
+    margin: 0;
+    font-weight: 700;
+    font-size: 110%;
+}
+
+.single-product-box:hover .product-hover-bottom {
+    opacity: 1;
+    visibility: visible;
+    bottom: 30px;
+}
+
+.product-carousel .owl-nav div {
+    height: 30px;
+    width: 30px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 29px;
+    border-radius: 50%;
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    margin-top: -59px;
+    opacity: .5;
+}
+
+.product-carousel .owl-nav div.owl-next {left: auto;right: -15px;}
