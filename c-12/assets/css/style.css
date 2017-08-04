@@ -1,0 +1,179 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.welcome-area{background: url(../img/bg4.jpg)}
+
+.header-area {
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.mainmenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+}
+
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu li a {
+    display: block;
+    padding: 18px;
+}
+
+
+.social-links {
+    border-left: 1px solid #ddd;
+    padding-left: 35px;
+    border: none;
+}
+
+.social-links:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    content: "";
+    background: #fff;
+    opacity: .2;
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 22px 13px;
+    color: #333;
+}
+
+.logo {
+    font-size: 30px;
+    text-transform: lowercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.logo span {
+    color: #20bfd6;
+}
+
+.welcome-area {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.welcome-area-text{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.welcome-area-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+html, body {
+    height: 100%;
+}
+
+.welcome-area-inner {
+    display: table-cell;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.welcome-area-inner h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.welcome-area-inner h1 {
+    font-size: 73px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 35px;
+}
+
+.welcome-area-inner p {
+    text-transform: uppercase;
+}
+
+.video-play-btn {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #333;
+    font-size: 18px;
+    padding-left: 5px;
+    margin-right: 16px;
+}
+
+.header-area.header-absolute-area {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    border: none
+}
+
+.header-area.header-absolute-area:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    content: "";
+    background: #fff;
+    opacity: .2;
+}
+
+.header-area.header-absolute-area a {
+    color: #fff;
+}
+
+.welcome-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #333;
+    opacity: .4;
+    z-index: -1;
+}
+
+
