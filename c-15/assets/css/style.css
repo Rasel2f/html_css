@@ -1,0 +1,123 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.protfolio-bg-1 {background: url(../img/bg3.jpg)}
+.protfolio-bg-2 {background: url(../img/bg2.jpg)}
+.protfolio-bg-3 {background: url(../img/bg3.jpg)}
+.protfolio-bg-4 {background: url(../img/bg2.jpg)}
+.protfolio-bg-5 {background: url(../img/bg5.jpg)}
+.protfolio-bg-6 {background: url(../img/bg2.jpg)}
+
+
+.single-protfolio-item:after {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,000000+100 */
+background: #eaeaea; /* Old browsers */
+background: -moz-linear-gradient(top, #eaeaea 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #eaeaea 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #eaeaea 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#000000',GradientType=0 ); /* IE6-9 */}
+
+
+.protfolio-list {
+    overflow: hidden;
+}
+
+.single-protfolio-item {
+    float: left;
+    width: 33.3333%;
+    height: 290px;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    position: relative;
+    z-index: 2;
+}
+
+.single-protfolio-item.large-bg {
+    height: 600px;
+}
+
+.protfolio-hover {
+    padding: 20px;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.protfolio-hover h4 {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 11px;
+}
+
+.single-protfolio-item:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    opacity: 0;
+    transition: .3s;
+}
+
+.single-protfolio-item:hover:after {
+    opacity: .6;
+}
+
+.single-protfolio-item:hover .protfolio-hover {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+}
+
+
+ul.protfolio-filter {
+    margin: 0 0 40px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul.protfolio-filter li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    background: #1D1F21;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+ul.protfolio-filter li.active {background: #DD4F43;}
