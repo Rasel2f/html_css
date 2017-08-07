@@ -1,0 +1,98 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.section-title h2 {
+    position: relative;
+    z-index: 1;
+    font-size: 36px;
+    color: #333;
+}
+
+.section-title h2:before {
+    position: absolute;
+    left: -34px;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    content: "";
+    background: #face44;
+}
+
+body {
+    color: #737373;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.section-title {
+    padding-bottom: 40px;
+}
+
+.service-icon {
+    color: #ffce44;
+    font-size: 63px;
+}
+
+.single-service-box h3 {
+    color: #4555b9;
+}
+
+.single-service-box {
+    margin-bottom: 40px;
+}
+
+.border-box {
+    border: 7px solid #ffce44;
+    padding: 40px;
+    padding-right: 45px;
+    margin: 100px 100px 0 30px;
+    position: relative;
+}
+
+.border-box img {
+    margin: -140px -140px 40px 0;
+    width: 450px;
+    max-width: 141%;
+}
+
+.box-redmore-btn {
+    position: absolute;
+    right: -115px;
+    bottom: 45px;
+    transform: rotate(270deg);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    color: #4555b9;
+}
+
+a.box-redmore-btn i.fa {
+    margin-right: 12px;
+}
+
+
+.margin-left{
+    margin-left: 50px
+}
