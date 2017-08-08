@@ -1,0 +1,91 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.section-bg-1{background: url(../img/bg-2.jpg)}
+.service-box-bg-1{background: url(../img/bg-6.jpg)}
+.service-box-bg-2{background: url(../img/sbg.jpg)}
+.service-box-bg-3{background: url(../img/sbg1.jpg)}
+.service-box-bg-4{background: url(../img/sbg2.jpg)}
+.service-box-bg-5{background: url(../img/gallery-bg-1.jpg)}
+.service-box-bg-6{background: url(../img/gallery-bg-2.jpg)}
+.service-box-bg-7{background: url(../img/gallery-bg-3.jpg)}
+.service-box-bg-8{background: url(../img/bg-6.jpg)}
+
+
+.section-padding {
+    position: relative;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-overlay:after, .single-service-box:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #f5ce0f;
+    z-index: -1;
+    opacity: .8;
+}
+
+.single-service-box {
+    display: table;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    background-size: 150%;
+    background-position: center;
+    transition: .3s;
+}
+
+.service-box-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.service-box-wrap h2 {
+    color: #fff;
+}
+
+.single-service-box:after {
+    background: #002732;
+}
+
+.single-service-box:hover {
+    background-size: 208%;
+}
+
+.single-service-box:hover:after {
+    opacity: .3;
+}
+
