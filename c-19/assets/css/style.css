@@ -1,0 +1,127 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+
+.single-pricing-item {
+    box-shadow: 0 0 15px #ccc;
+    padding: 30px;
+    border-top: 4px solid #38c695;
+    text-align: center;
+    transition: .3s;
+}
+
+.pricing-price {
+    background: #38c695;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 41px auto 50px;
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+}
+
+p.pricing-price-text {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-top: 23px;
+}
+
+.pricing-price:after {
+    position: absolute;
+    left: -6%;
+    top: -6%;
+    height: 112%;
+    width: 112%;
+    content: "";
+    border: 4px solid #38c695;
+    border-radius: 50%;
+}
+
+.pricing-content {
+    font-size: 18px;
+    color: #646464;
+}
+
+.bordered-btn, .box-btn {
+    display: inline-block;
+    border: 2px solid #38c695;
+    color: #38c695;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 11px 31px;
+    margin-top: 30px;
+}
+
+.bordered-btn:hover, .box-btn:hover, .theme-3 a.bordered-btn:hover{
+    color: #47484B
+}
+
+a.box-btn {
+    background: #38c695;
+    color: #fff;
+}
+
+.single-pricing-item:hover {
+    transform: scale(1.03);
+}
+
+.single-pricing-item.theme-2 {
+    border-color: #FF5E3E;
+}
+
+.theme-2 .pricing-price {
+    background-color: #FF5E3E;
+}
+
+.theme-2 .pricing-price:after {
+    border-color: #FF5E3E;
+}
+
+.theme-2 a.box-btn {
+    border-color: #FF5E3E;
+    background-color: #FF5E3E;
+}
+
+.single-pricing-item.theme-3 {
+    border-color: #B278F8;
+}
+
+.theme-3 .pricing-price {
+    background-color: #B278F8;
+}
+
+.theme-3 .pricing-price:after {
+    border-color: #B278F8;
+}
+
+.theme-3 a.bordered-btn {
+    border-color: #B278F8;
+    color: #B278F8
+}
+
