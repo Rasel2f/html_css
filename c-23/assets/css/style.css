@@ -1,0 +1,105 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+    text-align: center;
+    background-image: url(../img/bg2.jpg);
+    border-bottom: 2px dotted #333;
+    height: 500px
+}
+
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    font-size: 20px
+}
+
+.mainmenu li ul {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background: #000000;
+    padding: 15px 0;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(.5);
+}
+
+.mainmenu li ul li {
+    display: block;
+}
+
+.mainmenu li ul li a {
+    padding: 10px 15px;
+    color: #999;
+}
+
+.mainmenu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.mainmenu li:hover > a {
+    color: #1A9E5B;
+}
+
+.mainmenu li:hover li:hover > a {
+    background: #1A9E5B;
+    color: #fff;
+}
+
+.mainmenu.effect-2 li ul {
+    transform: scale(1);
+    transform: skew(20deg);
+}
+
+.mainmenu.effect-2 li:hover ul {
+    transform: scale(1);
+    transform: skew(0deg)
+}
+
+.mainmenu.effect-3 li ul {
+    transform: scale(1);
+    margin-top: 20px;
+}
+
+.mainmenu.effect-3 li:hover ul {
+    transform: scale(1);
+    margin-top: 0;
+}
