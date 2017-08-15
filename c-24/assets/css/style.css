@@ -26,6 +26,7 @@ a:hover{ text-decoration: none}
 .welcome-area{
     position: relative;
     margin: 0;
+    z-index: 1;
     background: #a547ff;
     background: -moz-linear-gradient(45deg, #a547ff 0%, #591dff 100%);
     background: -webkit-linear-gradient(45deg, #a547ff 0%,#591dff 100%);
