@@ -92,9 +92,9 @@ a:hover{ text-decoration: none}
 
 .buy-now a:before {
     position: absolute;
-    left: 16px;
+    left: -29px;
     top: 10px;
-    width: 44px;
+    width: 30px;
     height: 2px;
     content: "";
     background: #1AA59B;
