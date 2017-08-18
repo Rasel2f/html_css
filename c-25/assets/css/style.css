@@ -1,0 +1,109 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    margin-top: 50px;
+     background: #efefef;
+}
+
+.service-box-hover {background-image: url(../img/bg2.jpg)}
+
+.single-service-box {
+    position: relative;
+    font-size: 15px;
+    line-height: 1.8;
+    z-index: 2;
+    padding: 0 30px;
+}
+
+.single-service-box h2 {
+    margin-bottom: 46px;
+}
+
+.service-icon {
+    font-size: 111px;
+    opacity: .3;
+    line-height: 120px;
+    margin-bottom: 40px;
+}
+
+.service-box-hover {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1);
+    z-index: 1;
+    transition: .3s;
+}
+
+.single-service-box:hover{
+    color: #fff;
+}
+.single-service-box:hover .service-icon {
+    opacity: 1;
+}
+.single-service-box:hover .service-box-hover {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.1)
+}
+
+.service-box-hover:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+4    z-index: -1;
+    opacity: .8;
+    
+    background: #0f1b03;
+    background: -moz-linear-gradient(top, #0f1b03 0%, #43c113 100%);
+    background: -webkit-linear-gradient(top, #0f1b03 0%,#43c113 100%);
+    background: linear-gradient(to bottom, #0f1b03 0%,#43c113 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f1b03', endColorstr='#43c113',GradientType=0 );
+}
+
+.service-box-inner {
+    position: relative;
+    z-index: 3;
+}
+
+.bottom-arrow {
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px
+}
+.single-service-box:hover .bottom-arrow {
+  opacity: 1;
+  visibility: visible;
+  color: #fff;
+}
