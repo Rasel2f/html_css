@@ -1,0 +1,76 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 150px 0;
+}
+
+.speacial-bg-section:before {background: url(../img/bg2.jpg)}
+
+
+.speacial-bg-section {
+    background: #f3f3f3;
+    border: 1px solid #e0dddd;
+    position: relative;
+    padding: 110px 50px;
+    padding-left: 55%;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #9FBF42;
+    color: #f1e9e9;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.speacial-bg-section:before {
+    position: absolute;
+    left: 0;
+    top: -24%;
+    width: 50%;
+    height: 148%;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.speacial-bg-section:after {
+    position: absolute;
+    right: -35px;
+    bottom: -35px;
+    width: 48.6%;
+    height: 100%;
+    content: "";
+    border: 5px solid #9FBF42;
+    z-index: -1;
+}
+
+.speacial-bg-section
+ p {
+    font-size: 12px;
+    line-height: 1.8;
+    color: #bfbdbd;
+}
