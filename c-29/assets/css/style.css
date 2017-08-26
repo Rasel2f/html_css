@@ -1,0 +1,329 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Muli', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+
+.portfolio-bg-1 {background: url(../img/1.jpg)}
+.portfolio-bg-2 {background: url(../img/2.jpg)}
+.portfolio-bg-3 {background: url(../img/3.png)}
+.portfolio-bg-4 {background: url(../img/4.png)}
+.portfolio-bg-5 {background: url(../img/5.jpg)}
+.portfolio-bg-6 {background: url(../img/6.jpg)}
+.portfolio-bg-7 {background: url(../img/7.jpg)}
+.portfolio-bg-8 {background: url(../img/8.png)}
+.portfolio-bg-9 {background: url(../img/9.jpg)}
+.portfolio-bg-10 {background: url(../img/10.jpg)}
+.portfolio-bg-11 {background: url(../img/11.jpg)}
+
+.logo a {
+    color: #000000;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: inline-block;
+    position: relative;
+}
+
+.logo h1 span {
+    font-size: 7px;
+    position: absolute;
+    right: -10px;
+    top: 2px;
+}
+
+.menu-trigger span {
+    display: block;
+    height: 2px;
+    background: #000000;
+    transition: .3s;
+}
+
+.menu-trigger span:nth-child(2) {
+    margin: 7px 0;
+}
+
+.menu-trigger {
+    display: inline-block;
+    width: 30px;
+}
+
+.menu-trigger:hover span:nth-child(1), .menu-trigger:hover span:nth-child(3) {
+    margin: 0 5px;
+}
+
+.header-area {
+    padding: 45px 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+}
+
+.portfolio-list {
+    z-index: 2;
+    margin-bottom: 268px;
+}
+
+.single-portfolio-item {
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-size: 100%;
+    background-position: center;
+    display: table;
+    background-color: #ddd;
+    transition: .5s;
+}
+
+.single-portfolio-item.long {
+    height: 600px;
+}
+
+.single-portfolio-item.boxed {
+    height: 600px;
+    width: 50%;
+}
+
+.portfolio-hover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.portfolio-hover a {
+    color: #000;
+}
+
+.portfolio-hover h2 {
+    font-size: 22px;
+}
+
+.portfolio-hover p {
+    text-transform: uppercase;
+    font-size: 11px;
+    opacity: 0.4;
+}
+
+.portfolio-hover p:hover {
+    opacity: .6;
+}
+
+.single-portfolio-item:hover .portfolio-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-portfolio-item:hover {
+    background-size: 110%;
+}
+
+.footer-area {
+    background: #613AD6;
+    font-size: 18px;
+    line-height: 1.7;
+    padding: 75px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.footer-area, .footer-area a {
+    color: #fff;
+}
+
+.footer-area h2 a {
+    opacity: 1;
+}
+
+.footer-area p {
+    opacity: .7;
+}
+
+.footer-area li a {
+    opacity: .7;
+}
+
+h2.footer-logo {
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+h2.footer-logo span {
+    position: absolute;
+    right: -12px;
+    font-size: 8px;
+    top: 3px;
+}
+
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.footer-area h3 {
+    margin-top: 11px;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 0; 
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 10px;
+    position:relative; 
+}
+.footer-area h3:before {
+	position:absolute;
+	top:36px;
+	right:0;
+	content:"";
+	width:0%;
+	height:1px;
+	background:#fff;
+	transition:0.3s;
+}
+.footer-area h3:hover:before {
+	width:100%;
+	left:0; 
+}
+.offcanvas-menu {
+    position: fixed;
+    right: -40%;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    z-index: 99;
+    background: #fff;
+    padding: 40px;
+    transition: .3s;
+}
+
+.offcanvas-menu.active {
+    right: 0
+}
+
+.menu-bottom-section {
+    position: absolute;
+    bottom: 80px;
+    left: 48px;
+    max-width: 291px;
+}
+
+.offcanvas-text {
+    background: #EFEBFF;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.social-icon {
+    padding-top: 30px;
+}
+
+.social-icon a {
+    color: #B5B3C1;
+    font-size: 25px;
+    display: inline-block;
+    padding-right: 10px;
+    transition: .5s
+}
+
+.social-icon a:hover {
+    color: #190099;
+}
+.offcanvas-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 7px;
+}
+
+.offcanvas-menu li a {
+    font-size: 35px;
+    font-weight: 600;
+    color: #100060;
+    line-height: 1.6;
+    transition: .5s;
+}
+
+.offcanvas-menu li a:hover {
+    color: #613AD6;
+}
+
+.menu-item-wrap {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-item-inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 153px;
+}
+
+.menu-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 65px;
+    border-left: 1px solid #ddd;
+}
+
+.menu-close i.fa {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    line-height: 40px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.offcanvas-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #333;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.offcanvas-menu-overlay.active {
+    visibility: visible;
+}
