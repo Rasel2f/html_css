@@ -1,0 +1,52 @@
+/* Medium layout -> 992px to 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	
+}
+
+/*Tablet layout -> 768px to 991px*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/*Mobile & Tablet layout -> max to 991px */
+@media only screen and (max-width: 991px){
+    
+    .single-portfolio-item {width: 50%}
+    
+    .menu-bottom-section { 
+	    max-width: 190px; 
+	}
+    
+    .portfolio-list {
+        margin-bottom: 356px;
+    }
+}
+
+/* Mobile layout -> max to 767px*/
+@media only screen and (max-width: 767px){
+	.single-portfolio-item, .single-portfolio-item.boxed {width: 100%}
+    
+    
+    .portfolio-list {
+        margin-bottom: 0px;
+    }
+    
+    .single-portfolio-item {height: 450px}
+    
+    .offcanvas-menu {width: 100%; right: -100%}
+    
+    .footer-area {
+    position: relative;
+    }
+
+    .footer-area .col-md-3 {
+        margin-bottom: 40px;
+    }
+} 
+
+/* Wide Mobile layout -> 480px to 767px */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+     .menu-bottom-section { 
+	    max-width: 279px; 
+	}
+}
