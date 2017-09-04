@@ -1,0 +1,86 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+
+.col-md-6 {}
+
+.section-padding.section-black-bg {
+    background: #191D1C;
+    color: #7A7A7A;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.section-black-bg h1 {
+    font-size: 90px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.section-black-bg h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    margin-top: 26px;
+}
+
+.boxed-btn {
+    color: #fff;
+    letter-spacing: 4px;
+    border: 1px solid;
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.boxed-btn:hover {
+    color: #333;
+    background: #fff;
+    border-color: #fff;
+    font-weight: 600;
+}
+
+.section-padding.section-black-bg {}
+
+.section-padding {
+    margin-top: 150px;
+}
+
+.absolute-img {
+    top: -180px;
+    position: relative;
+    margin-bottom: -180px;
+}
+
