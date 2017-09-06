@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>প্রাণডোর</title>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/wheelmenu.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="icon" href="img/ic_launcher.png">
+        
+        <script src="js/jquery.js"></script>
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/jquery.wheelmenu.min.js"></script>
+        
+        <script>
+            $(document).ready(function() {
+                $(".wheel-button").wheelmenu({
+                    trigger: "hover",
+                    animation: "fly",
+                    animationSpeed: "fast"
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+           <div class="header">
+              <font face="comic sans=" size="3">
+                আপনার রক্তদান<br/>বাঁচাতে পারে একটি প্রাণ… <span>প্রাণডোর</span>
+            </font>
+           </div>
+            <div class="heighted">
+            <div class="wheel-main">
+                <a href="#wheel" class="wheel-button"><span><img src="img/drop.png" alt=""></span></a>
+                <ul id="wheel" data-angle="all">
+                    <li class="item"><a href="html/o.html">O +</a></li>
+                    <li class="item"><a href="html/o2.html">O -</a></li>
+                    <li class="item"><a href="html/a.html">A +</a></li>
+                    <li class="item"><a href="html/a2.html">A -</a></li>
+                    <li class="item"><a href="html/b.html">B +</a></li>
+                    <li class="item"><a href="html/b2.html">B -</a></li>
+                    <li class="item"><a href="html/ab.html">AB +</a></li>
+                    <li class="item"><a href="html/ab2.html">AB -</a></li>
+                </ul>
+            </div>
+            </div>
+            
+        </div>
+        
+               
+        <div class="bottom">
+            <div class="bottombtn left">
+                <p><a id="add" href="#">ADD New</a></p>
+            </div>
+
+            <div class="bottombtn right">
+                <p><a id="add" href="#">Update</a></p>
+            </div>
+
+            <a href="html/rasel.html">
+                <div class="list-developer">
+                    <img class="l" src="img/es.png"/>
+                     <big><b>Developed By <u>MD. RASEL</u></b></big>
+                    <img class="r" src="img/es2.png"/> 
+                </div>
+            </a>
+        </div>
+        
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>

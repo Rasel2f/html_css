@@ -1,0 +1,115 @@
+/* Required Stylesheets */
+.wheel-button {
+  position: relative;
+}
+
+.wheel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 200px; /* this will determine the diameter of the circle  */
+  height: 200px; /* this will determine the diameter of the circle  */
+  visibility: hidden;
+  position: relative;
+  display: none;
+}
+
+.wheel li {
+  overflow: hidden;
+  float:left;
+}
+
+.wheel li a {
+  display: block;
+}
+
+
+
+/*My add*/
+
+
+
+body {
+    background: #f4eedf;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'open sans';
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/bg-main.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+    height: 660px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    overflow: hidden;
+    position: relative
+}
+
+a {
+    text-decoration: none;
+}
+
+.wheel-button {
+    line-height: 10px;
+    font-weight: bold;
+    background: #049372;
+    padding: 9px 5px;
+    text-align: center;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 250px auto;
+    border: 3px solid #22313F;
+}
+
+.wheel-button:hover {
+    background: #07765c;
+}
+
+.wheel-button span,
+.wheel span {
+    position: relative;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    display: block;
+}
+
+.wheel-button.active span {
+    transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    /* IE 9 */
+    -webkit-transform: rotate(135deg);
+    /* Safari and Chrome */
+}
+
+.wheel li a {
+    background: #22313F;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid black;
+    color: #fff;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wheel li a:hover{
+    background: #1b2732;
+    color: red;
+}
+

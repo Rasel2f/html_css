@@ -1,0 +1,36 @@
+
+/*Tablet layout -> 768px to 991px*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Wide Mobile layout -> 480px to 767px */
+@media only screen and (max-width: 480px){
+    .bottom .list-developer{font-size: 55%}
+    
+    .list-developer img {
+    height: 15px;
+    width: 15px;
+    }
+    .bottombtn {
+    height: 25px;
+    width: 70px;
+    }
+
+    .bottombtn p {
+        line-height: 15px;
+    }
+
+    .bottombtn p a {
+        font-size: 70%;
+        padding: 5px;
+    }
+    
+    .mainblok {
+        margin-bottom: 8%
+    }
+    
+    .wrapper {height: auto}
+    
+    .wheel-button {margin: 50% auto}
+}
