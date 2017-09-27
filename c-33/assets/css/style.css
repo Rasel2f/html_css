@@ -1,0 +1,132 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.booking-area {background-image: url(../img/banner-bg-1.jpeg)}
+
+.booking-text {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.sep-top {
+    max-width: 400px;
+}
+
+.sep-bottom {
+    max-width: 250px;
+    height: 36px;
+    margin-top: 20px;
+}
+
+.booking-text h1 {
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.booking-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.booking-area:after, .booking-form-element:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: .5;
+    z-index: -1;
+}
+
+.booking-form {
+    margin-top: 50px;
+}
+
+.booking-form-element {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    font-weight: 700;
+    color: #E3C17B;
+    padding: 20px;
+    border: 1px solid #474133;
+    transition: .3s;
+    height: 100px;
+}
+
+.booking-form-element:hover {
+    border: 1px solid #E3C17B;
+}
+
+.booking-form label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.booking-form-element
+ select {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+.booking-form-element
+ select:focus {
+    outline: none;
+}
+
+.booking-form-element
+ input[type=submit] {
+    background: none;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.nice-select {
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    left: 0;
+    padding: 0;
+    height: auto;
+    line-height: normal;
+    width: 100%;
+}
