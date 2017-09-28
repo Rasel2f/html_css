@@ -1,0 +1,143 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.timeline-area {background-image: url(../img/timeline-bg.jpg);background-size: cover;background-position: center}
+
+.timeline-area {position: relative;z-index: 1}
+
+.timeline-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #072938;
+    opacity: .3;
+    z-index: -1;
+}
+
+.timeline-area {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.section-title h2 span {
+    color: #02A2F2;
+}
+
+.section-title p {
+    color: #7695AE;
+}
+
+img.timeline-img-frame {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #2E5B6F;
+    display: block;
+    padding: 3px;
+    margin: 0 auto;
+}
+
+.single-timeline-item {
+    position: relative;
+    width: 100px;
+    margin: 0 auto 80px;
+}
+
+.single-timeline-item:after {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    height: 80%;
+    width: 2px;
+    content: "";
+    background: #2F5C70;
+    z-index: -1;
+    margin-left: -1px;
+}
+.single-timeline-item:last-child:after {
+    display: none;
+}
+
+.timeline-text {
+    position: absolute;
+    color: #fff;
+    background: #052939;
+    width: 400px;
+    left: -429px;
+    top: 50%;
+    height: 160px;
+    padding: 30px;
+    margin-top: -80px;
+    border-radius: 25px;
+    text-align: right;
+}
+.timeline-text h3 {
+    color: #0974A0;
+    font-weight: 300;
+}
+
+.timeline-text p {
+    font-size: 12px;
+}
+.timeline-text:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    margin-top: -14px;
+    border-width: 20px;
+    border-style: solid;
+    right: -40px;
+    border-color: transparent transparent transparent #052939;
+}
+.single-timeline-item:nth-child(2n+2) .timeline-text {
+    left: auto;
+    right: -430px;
+    background: #FFFFFF;
+    color: #C5D4E1;
+    text-align: left;
+}
+
+.single-timeline-item:nth-child(2n+2) .timeline-text:after {
+    left: -40px;
+    right: auto;
+    border-color: transparent #fff transparent transparent;
+}
+
+.timeline {
+    margin-top: 40px;
+}
