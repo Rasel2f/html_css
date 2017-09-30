@@ -1,0 +1,100 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.section-bg {background-image: url(../img/feature-bg4.jpg)}
+.section-bg {
+    position: relative;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+    background-color: #525254;
+    color: #fff;
+}
+
+.section-blue-overlay, .section-black-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    content: "";
+    background: #0098EE;
+    z-index: -1;
+    opacity: .7;
+}
+
+.section-black-overlay {
+    left: auto;
+    right: 0;
+    width: 60%;
+    background: #000;
+    opacity: .5;
+}
+.single-service-box {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 35px;
+    color: #C4E3ED;
+}
+
+.single-service-box i.fa {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 25px;
+}
+
+.single-service-box h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+.section-title {
+    color: #C0C0BE;
+    position: relative;
+    margin-bottom: 70px;
+    font-style: italic;
+}
+
+.section-title h2 {
+    color: #fff;
+    font-size: 50px;
+    font-style: initial;
+}
+
+.section-title:after {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 2px;
+    width: 150px;
+    content: "";
+    background: #2B6B9F;
+}
+
+.left-text {
+    line-height: 1.7;
+}
