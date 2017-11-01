@@ -1,0 +1,134 @@
+.a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-linear-gradient(red, green);
+  background: linear-gradient(red, green);
+}
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+body {
+    color: #979897;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.section-title h2 span {
+    color: #26A65B;
+}
+
+.single-pricing-box {
+    border: 1px solid #D9DFDC;
+    padding: 20px;
+    text-align: center;
+}
+
+.single-pricing-box h3 {
+    text-transform: uppercase;
+}
+
+.single-pricing-box h3.pricing-count {text-transform: capitalize}
+
+.pricing-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #26A65B;
+}
+
+.pricing-icon img {
+    max-width: 69px;
+    height: auto;
+}
+
+.pricing-list {
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.pricing-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 20px;
+    line-height: 2;
+}
+
+.pricing-list ul li:before {
+    font-family: fontAwesome;
+    content: "\f00c";
+    color: #26A65B;
+    padding-right: 10px
+}
+
+.pricing-list ul li.corss-icon:before {
+    content: "\f00d";
+    color: #ED1E1E;
+}
+
+a.bordered-btn {
+    display: inline-block;
+    border: 1px solid #26A65B;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #333;
+}
+
+.single-pricing-box:hover {
+    border-color: #26A65B;
+    box-shadow: 0 0 20px #74cc98;
+}
+
+a.bordered-btn:hover {
+    background: #26A65B;
+    color: #fff;
+}
+
+.pricing-list ul li:hover {
+    padding-left: 5px;
+}
+
+.pricing-list ul li {
+    -webkit-transition: .2s;
+    transition: .2s;
+}
