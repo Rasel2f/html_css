@@ -1,0 +1,117 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-bg-1:after {background-image: url(../img/metting.jpg)}
+
+.section-bg-1 {
+    position: relative;
+}
+
+.section-bg-1:after {
+    position: absolute;
+    width: 47%;
+    height: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+
+h2.section-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    color: #333;
+}
+
+h2.section-title span {
+    color: #17B4FA;
+}
+
+.section-padding {
+    padding: 50px 0;
+}
+
+body {
+    color: #BABABA;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.styled-faq .panel.panel-default {
+    border: 1px solid #C0BAC0;
+    border-radius: 0;
+    background: none;
+}
+
+.styled-faq .panel-default>.panel-heading {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.styled-faq .panel .panel-collapse .panel-body {
+    border: none;
+}
+
+.style-faq .panel-group .panel {
+    box-shadow: 0 0 0;
+    border-radius: 0;
+}
+
+.styled-faq .panel .panel-heading h4 a {
+    display: block;
+    padding: 15px;
+    position: relative;
+}
+
+.styled-faq .panel .panel-heading h4 a i.fa {
+    float: right;
+    font-size: 150%;
+    line-height: 15px;
+    display: none;
+}
+
+.styled-faq .panel .panel-heading h4 a[aria-expanded=true] i.fa-plus {
+    display: block;
+}
+
+.styled-faq .panel .panel-heading h4 a[aria-expanded=false] i.fa-minus {
+    display: block;
+}
+
+.styled-faq {
+    min-height:420px;
+    margin-top:30px
+}
