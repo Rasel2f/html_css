@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
         items: 3,
         margin: 30,
         loop:true,
-        autoplay:false,
+        autoplay:true,
         autoplayTimeout:3000,
         nav:false,
         dots: true,
