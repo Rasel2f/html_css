@@ -150,6 +150,10 @@
         margin: 5px
     }
     
+    .brand-images {
+        margin-top: 50px;
+    }
+    
     .footer-area, .footer-area .text-right {
         text-align: center;
     }
