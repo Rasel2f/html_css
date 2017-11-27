@@ -1,0 +1,79 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.service-bg-1 {background-image: url(../img/img-1.jpg)}
+.service-bg-2 {background-image: url(../img/img-2.jpg)}
+.service-bg-3 {background-image: url(../img/img-3.jpg)}
+.service-bg-4 {background-image: url(../img/img-4.jpg)}
+.service-bg-5 {background-image: url(../img/img-5.jpg)}
+
+.service-bg img {
+    width: 100%;
+}
+
+.single-service-item {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.single-service-item h2 {
+    background: #6f0907;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    
+}
+.single-service-item.fake-service {
+    position: relative;
+}
+
+.fake-service .service-bg, .fake-service h2 {
+    opacity: 0;
+}
+
+.service-cta {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.service-cta-inner {
+    display: table;
+    height: 100%;
+    width: 100%;
+    background: #094f83;
+}
+
+.service-cta-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
