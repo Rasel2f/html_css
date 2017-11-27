@@ -1,0 +1,112 @@
+/*Base CSS*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus,
+inpot:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+.zigzag-tex-bg-1 {
+    background-image: url(../img/bg2.jpg)
+}
+
+.zigzag-tex-bg-2 {
+    background-image: url(../img/bg3.jpg)
+}
+
+.section-padding {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.zigzag-text {
+    position: relative;
+    z-index: 2;
+    padding-right: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.zigzag-text:after {
+    position: absolute;
+    left: -4896%;
+    top: 0;
+    height: 100%;
+    width: 5000%;
+    background: #042352;
+    content: "";
+    z-index: -1;
+    transform: skew(15deg);
+}
+
+.boxed-btn {
+    background: #bad432;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    box-shadow: 0 2px 0 #fff;
+
+}
+
+.zigzag-tex-bg-2 .zigzag-text:after {
+    left: auto;
+    right: -4896%;
+}
+
+.zigzag-tex-bg-2 .zigzag-text {
+    padding-right: 0;
+    padding-left: 60px;
+}
+
+h2 {}
+
+.section-padding.zigzag-tex-bg-2 {
+    overflow: hidden;
+}
+.zigzag-wraper {
+    position: relative;
+}
+
+.zigzag-wraper:after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 16px;
+    width: 100%;
+    background: #bad432;
+    content: "";
+    z-index: 99;
+    margin-top: -8px;
+}
