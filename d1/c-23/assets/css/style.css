@@ -1,0 +1,97 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.section-title
+ p {
+    color:  #9c9c9c;
+}
+
+.section-title
+ h2 {
+    font-size: 40px;
+}
+.service-box-bg-1 {background-image: url(../img/bg2.jpg)}
+
+.single-team-box {
+    border: 1px solid #e4e4e4;
+    text-align:  center;
+}
+
+.single-team-box {}
+
+.service-box-bg {
+    height: 200px;
+    width:  100%;
+    background-size:  cover;
+    background-position: center;
+    position:  relative;
+}
+
+.service-box-bg h2 {
+    position:  absolute;
+    background:  #f97230;
+    color:  #fff;
+    font-size: 22px;
+    text-align:  center;
+    padding: 15px;
+    left:  8%;
+    width: 84%;
+    margin:  0;
+    bottom: -26px;
+}
+
+.service-box-content {
+    padding: 52px 30px 20px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #959595;
+}
+
+.service-box-content p:last-child {
+    margin: 0;
+}
+
+.service-readmore-btn {
+    display:  inline-block;
+    color: #333;
+    font-weight:  600;
+    margin-bottom: 30px;
+}
