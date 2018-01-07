@@ -1,0 +1,108 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, inpot:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.main-menu ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+    text-align:  right;
+}
+
+.main-menu li {
+    display:  inline-block;
+}
+
+.main-menu li
+ a {
+    display:  block;
+    padding: 10px;
+    padding-right:  0;
+    padding-left: 21px;
+    font-size: 16px;
+    color:  #fff;
+}
+
+.main-menu li a:hover {
+    color:  #e6ad21;
+}
+
+.single-slide-item {
+    background: #263238;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.slide-text h2 {
+    font-size: 45px;
+    color: #f8be20;
+    font-weight:  300;
+    line-height: 58px;
+}
+
+.bordered-btn {
+    display:  inline-block;
+    color: #f8be20;
+    border: 1px solid #9fa4a7;
+    padding: 16px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+a.bordered-btn:hover {
+    color: #f8be20;
+}
+
+.manimg {
+    position:  absolute;
+    right: 50px;
+    bottom: 0;
+    max-height: 500px;
+    height: 500px
+}
+
+.slide-text {
+    padding: 120px 0;
+    padding-top: 140px;
+}
+
+.single-slide-item .row {
+    position:  relative;
+}
+
+.header-area {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width:  100%;
+    padding:  20px 0;
+    z-index: 9;
+}
+
+.bordered-btn
+ i.fa {
+    margin-left: 7px;
+}
