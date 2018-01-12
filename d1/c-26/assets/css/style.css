@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="submit"], textarea {
+    background: #f9f9f9;
+    padding: 15px;
+    border:  none;
+}
+input:focus, textarea:focus, a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+
+.white-box {
+    box-shadow: 0 0 10px #e4e4e4;
+    padding: 30px;
+}
+
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact-form
+ input[type="submit"] {
+    width:  auto;
+    margin: 0;
+    background:  #4daefe;
+    color:  #fff;
+    padding:  15px 30px;
+    border:  none;
+    border-radius: 3px;
+}
+
+.contact-form
+ textarea {
+    height: 130px;
+    resize:  none;
+}
+
+.colored-box {
+    background:  #4daefe;
+    color: #fff;
+    padding: 30px;
+    min-height: 435px;
+}
+
+.colored-box a {
+    color: #fff;
+}
+
+.contact-info {
+    position:  relative;
+    padding-left:  40px;
+    margin-bottom: 29px;
+    font-size: 15px;
+}
+
+.contact-info i.fa {
+    position:  absolute;
+    left:  0;
+    top: 5px;
+    font-size: 20px;
+}
+
+.colored-box h4, .white-box h4 {
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.social-links
+ a {
+    display:  inline-block;
+    width:  40px;
+    height: 40px;
+    color:  #333;
+    background:  #fff;
+    text-align:  center;
+    line-height:  40px;
+    border-radius: 50%;
+    margin-right:  10px;
+    box-shadow: 0 0 5px #8e8c8c;
+    transition: .3s;
+}
+
+.social-links a:hover {
+    color:  #4daefe;
+    box-shadow: 0 0 0;
+}
