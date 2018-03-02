@@ -1,0 +1,170 @@
+/* Google Web Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+/* ================= General ==================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #667677
+}
+
+a:hover {
+    text-decoration: none
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    border: 1px solid #d7d7d7;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.margin-top-50 {margin-top: 50px;}
+.margin-top-130 {margin-top: 130px;}
+.margin-top-60 {margin-top: 60px;}
+.margin-top-100 {margin-top: 100px;}
+.margin-bottom-60{margin-bottom: 60px}
+.margin-bottom-30{margin-bottom: 30px}
+.section-padding.padding-top-0 {padding-top: 0;}
+.section-padding.padding-100 {padding: 100px 0 70px;}
+.border-boxed.margin-bottom-25 {margin-bottom: 25px}
+/*==========================
+ALL BACKGROUND IMG
+===========================*/
+.section-bg-1 {background-image: url(../img/bg-1.jpg)}
+.section-bg-2 {background-image: url(../img/bg-00.jpg)}
+.section-bg-3 {background-image: url(../img/bg.jpeg)}
+
+html, body, .full-height {
+    height: 100%;
+}
+
+body {
+    max-height:  100%;
+}
+
+.section-table {
+    display:  table;
+    height:  100%;
+    width: 100%;
+}
+
+.section-tablesell {
+    display:  table-cell;
+    vertical-align:  middle;
+    width:  100%;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-padding.full-height {
+    padding: 0;
+}
+
+.over-lay {
+    position:  relative;
+    z-index: 1;
+    background-attachment: fixed
+}
+
+.over-lay:after {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width:  100%;
+    height:  100%;
+    background: #000;
+    content:  "";
+    z-index: -1;
+    opacity: .5;
+}
+
+.single-service-item {
+    position:  relative;
+    z-index: 2;
+    color: #fff;
+    padding: 30px;
+    text-align:  center;
+}
+
+.single-service-item:after {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width:  100%;
+    height:  100%;
+    background:  #000;
+    content:  "";
+    z-index: -1;
+    opacity: .5;
+}
+
+.single-service-item a, .single-service-item h2 {
+    color: #fff;
+}
+
+.single-service-item
+ h2 {
+    font-size: 25px;
+}
+
+body {
+    font-size:  15px;
+    line-height: 1.8;
+}
+
+.service-icon {
+    font-size:  100px;
+    line-height: 120px;
+}
+.video-play-box {
+    text-align:  center;
+    color:  #fff;
+    transition: .3s;
+}
+.video-btn {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    color: #000;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
