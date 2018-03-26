@@ -1,0 +1,135 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+
+.single-project-item {background-image: url(../img/1.jpg)}
+.single-project-bg-2 {background-image: url(../img/5.jpg)}
+.single-project-bg-3 {background-image: url(../img/4.png)}
+.single-project-bg-4 {background-image: url(../img/3.png)}
+.single-project-bg-5 {background-image: url(../img/2.jpg)}
+.single-project-bg-6 {background-image: url(../img/6.jpg)}
+.single-project-bg-7 {background-image: url(../img/7.jpg)}
+.single-project-bg-8 {background-image: url(../img/8.png)}
+.single-project-bg-9 {background-image: url(../img/9.jpg)}
+
+.projects-titles {
+    margin: 0 0 50px;
+    padding:  0;
+    list-style:  none;
+}
+
+.projects-titles li {
+    display:  inline-block;
+    padding-right:  20px;
+    cursor:  pointer;
+    font-weight: 700;
+}
+
+.single-project-item span, .projects-titles li.active{
+    color: #1ef8f1;
+}
+
+.single-project-item {
+    height:  300px;
+    background-size:  cover;
+    background-position:  center;
+    background-color: #ddd;
+    margin-bottom: 15px;
+    position:  relative;
+    z-index: 2;
+}
+
+.row.projects-list .col-md-4:nth-child(2) .single-project-item,
+.row.projects-list .col-md-4:nth-child(4) .single-project-item,
+.row.projects-list .col-md-4:nth-child(5) .single-project-item {
+    height: 615px;
+}
+
+.row.projects-list .col-md-4 {
+    padding-left:  7.5px;
+    padding-right: 7.5px;
+}
+
+.row.projects-list {
+    margin-left:  -7.5px;
+    margin-right: -7.5px;
+}
+
+.project-hover:after {
+    position:  absolute;
+    content:  "";
+    left:  0;
+    top:  0;
+    width:  100%;
+    height:  100%;
+    background:  #000;
+    opacity:  .5;
+    z-index: -1;
+}
+.project-hover {
+    position:  relative;
+    height:  100%;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transform: scale(0);
+    transition: .3s;
+}
+
+.project-hover a {
+    right: 30px;
+    position:  absolute;
+    top:  30px;
+    font-size: 20px;
+    color: #1ef8f1;
+}
+
+.project-hover h4 {
+    font-weight:  400;
+    color: #fff;
+    margin:  0;
+    position:  absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.project-hover h4 span {
+    display:  block;
+    font-size:  80%;
+    margin-top: 10px;
+}
+
+.single-project-item:hover .project-hover {
+    transform: scale(1);
+    opacity: 1;
+}
