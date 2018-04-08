@@ -278,7 +278,7 @@ a:hover{ text-decoration: none}
     position:  absolute;
     top: 100px;
     background: #16a086bd;
-    left: 23px;
+    left: 26px;
     transform: scale(0);
     transition: .3s;
 }
@@ -374,5 +374,6 @@ a:hover{ text-decoration: none}
     text-align: center;
     right: 40px;
     bottom: 18px;
+    z-index: 9999
 }
 
