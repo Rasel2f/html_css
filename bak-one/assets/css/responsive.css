@@ -1,11 +1,24 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
   
-    
+    .hover-link a i.fa {
+        padding: 10px 10px;
+        font-size: 25px
+    }
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+     #header .navbar-brand {
+        margin-left: 20px;
+    }
+    .hover-link a i.fa {
+        padding: 10px 10px;
+        font-size: 25px
+    }
+
+    .hover-link {
+        left: 17px;
+    }
     
 }
 /* Mobile Layout: 320px. */
@@ -75,5 +88,8 @@
     }
     .project-hover h4 {
         left: 20%;
+    }
+    .hover-link {
+        margin-left: -120px;
     }
 }
