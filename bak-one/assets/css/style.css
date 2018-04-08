@@ -1,0 +1,378 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, input:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0 0 15px;
+    font-weight: 700;
+}
+body{
+    font-family: 'lato', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+/*=== HEADER ===*/
+
+#header {
+    background: #fff;
+    padding: 20px 0;
+}
+
+#header .navbar-brand {
+    padding: 0;
+}
+
+#header .navbar {
+    margin-bottom: 0;
+}
+#header .navbar-toggle .icon-bar {
+    background: #1bbc9b;
+}
+.my-class li a {
+    color: #444444;
+    text-transform:  uppercase;
+    font-weight: normal;
+    transition: .3s
+}
+
+.my-class li a:hover {
+    background: #1bbc9b;
+    color: #fff;
+}
+
+/*=== bannar ===*/
+
+#bannar {
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 0;
+}
+
+.baner-content h2 {
+    font-size:  55px;
+    color:  #fff;
+    font-weight: 100;
+    margin-bottom: 42px;
+}
+
+.baner-content h2 span {
+    font-weight:  700;
+}
+
+.baner-content {
+    color: #c3c1c1;
+    font-size: 18px;
+}
+
+.baner-content .btn {
+    background: #1bbc9b;
+    border-radius:  inherit;
+    border:  none;
+    margin-top: 50px;
+    margin-bottom: 44px;
+    text-transform:  uppercase;
+    padding: 15px 20px;
+    transition: .5s;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.baner-content .btn-success:hover {
+    background: #15ab8c
+}
+
+.baner-content i.fa {
+    display: block;
+    color: #060606;
+    background: #fdfdfd;
+    font-size: 30px;
+    width:  30px;
+    height:  30px;
+    border-radius:  50%;
+    margin:  0 auto;
+}
+
+/*=== Flitring ===*/
+
+.single-project-item {background-image: url(../img/port1.jpg)}
+.single-project-bg-2 {background-image: url(../img/port2.jpg)}
+.single-project-bg-3 {background-image: url(../img/port3.jpg)}
+.single-project-bg-4 {background-image: url(../img/port4.jpg)}
+.single-project-bg-5 {background-image: url(../img/port5.jpg)}
+.single-project-bg-6 {background-image: url(../img/port6.jpg)}
+.single-project-bg-7 {background-image: url(../img/port2.jpg)}
+.single-project-bg-8 {background-image: url(../img/port1.jpg)}
+
+#fltaring {
+    padding: 35px 0;
+}
+
+.section-title {
+    text-align:  center;
+    font-size:  16px;
+    color: #444444;
+    margin: 20px 0;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.projects-titles {
+    margin:  0 0 45px;
+    padding:  0;
+    list-style:  none;
+}
+
+.projects-titles li {
+    display: inline-block;
+    padding: 15px 15px;
+    background: #1bbc9b;
+    text-transform:  uppercase;
+    color: #fff;
+    margin-right: 20px;
+    transition: .3s;
+    font-size:  13px;
+    font-weight:  700;
+    cursor: pointer;
+}
+
+.projects-titles li:hover,
+.contact-form input[type=submit]:hover {
+    background: #16a086;
+}
+
+.single-project-item {
+    height:  180px;
+    width: 180PX;
+    border-radius: 50%;
+    background-size:  cover;
+    background-position:  center;
+    background-color: #ddd;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    position:  relative;
+    z-index: 2;
+}
+
+.project-hover {
+    position:  relative;
+    height:  100%;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transform: scale(0);
+    transition: .3s;
+}
+
+.project-hover a {
+    right: 50%;
+    margin-right: -17px;
+    padding-top: 5px;
+    position: absolute;
+    top: 40px;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(23, 22, 22, .5);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.project-hover h4 {
+    font-weight:  400;
+    color: #fff;
+    margin:  0;
+    position:  absolute;
+    bottom: 30px;
+    left: 25%;
+}
+
+.project-hover h4 span {
+    display:  block;
+    font-size:  80%;
+    margin-top: 10px;
+}
+
+.single-project-item:hover .project-hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.project-hover:after {
+    border-radius: 50%;
+    position:  absolute;
+    content:  "";
+    left:  0;
+    top:  0;
+    width:  100%;
+    height:  100%;
+    background:  #000;
+    opacity:  .3;
+    z-index: -1;
+}
+
+/*=== about-us ===*/
+
+#about-us {
+    background: #16a086;
+    color: #444444;
+    padding: 50px 0;
+}
+
+#about-us .section-title {
+    color: #fff;
+}
+
+.team-bg {background-image: url(../img/teme1.jpg)}
+.team-bg-1 {background-image: url(../img/teme2.jpg)}
+.team-bg-2 {background-image: url(../img/teme3.jpg)}
+
+.single-team-member {
+    background:  #fff;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 2px;
+}
+
+.team-bg {
+    height:  225px;
+    width: 100%;
+    background-position:  center;
+    background-size:  cover;
+    border-radius: 2px 2px 0 0;
+}
+
+.team-info {
+    padding: 20px 10px;
+    line-height: 1.7;
+}
+
+.team-info h4 span {
+    display:  block;
+    font-size: 80%;
+    margin-top: 8px;
+}
+
+.team-info h4 {
+    text-align:  center;
+    font-size: 18px;
+}
+
+.hover-link {
+    position:  absolute;
+    top: 100px;
+    background: #16a086bd;
+    left: 23px;
+    transform: scale(0);
+    transition: .3s;
+}
+
+.hover-link a i.fa {
+    color:  #fff;
+    padding: 10px 15px;
+    font-size: 29px;
+    transition: .2s;
+}
+
+.hover-link a i.fa:hover {
+    color: #d6d4d4;
+}
+
+.single-team-member:hover .hover-link {
+    transform: scale(1)
+}
+
+/*=== contact-us ===*/
+
+#contact-us {
+    background: #ecf0f1;
+    padding: 50px;
+    color: #444444;
+}
+.contact-form input[type=text],.contact-form input[type=email], .contact-form textarea {
+    padding:  10px;
+    width:  100%;
+    margin-bottom: 25px;
+}
+
+#contact-us .section-title {
+    margin-bottom: 50px
+}
+
+.contact-form textarea {
+    resize:  none;
+}
+
+.contact-form input[type=submit] {
+    background: #1bbc9b;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 15px 25px;
+}
+
+.widget h4 {
+    color: #444444;
+}
+
+.widget ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+.widget li {
+    display:  block;
+    margin-left: 20px;
+}
+
+.widget li a {
+    color:  #444444;
+    display:  block;
+    padding-bottom: 15px;
+    position:  relative;
+}
+
+.widget li a i.fa {
+    position: absolute;
+    left: -20px;
+    top: 5px;
+}
+
+.copyright {
+    background: #2d3e50;
+    padding: 35px 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+.top {
+    position: fixed;
+    background: #1bbc9b;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    right: 40px;
+    bottom: 18px;
+}
+
