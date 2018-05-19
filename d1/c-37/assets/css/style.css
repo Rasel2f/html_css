@@ -1,0 +1,92 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+
+.team-bg-1 {background-image: url(..//img/bg1.jpg)}
+.team-bg-2 {background-image: url(..//img/gallery-bg-1.jpg)}
+.team-bg-3 {background-image: url(..//img/gallery-bg-2.jpg)}
+
+.section-title h2{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: rotate(270deg);
+    top: 132px;
+    text-align: right;
+    width: 300px;
+    margin-left: -50px;
+    font-size: 35px;
+}
+
+.section-title h2:before {
+    position:  absolute;
+    right: 0;
+    top: -43px;
+    width: 54%;
+    height: 1px;
+    content:  "";
+    background: #9E9E9E;
+}
+
+.team-bg {
+    height: 270px;
+    background-size: cover;
+    background-position: center top;
+    background-color: #ddd;
+    margin-bottom: 50px;
+}
+
+.bordered-contant {
+    border: 1px solid #333;
+    text-align:  center;
+    font-size:  16px;
+    text-transform:  uppercase;
+    font-weight:  300;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.bordered-contant h3 {
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    background: #fff;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+.author-name {
+    margin-top: -12px;
+}
+.col-md-4:nth-child(2) .single-team-member {
+    margin-top: 120px;
+}
