@@ -1,0 +1,190 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none; color: #fff }
+
+.section-padding {padding: 80px 0}
+
+.promo-boxes-wraper {
+    margin-left: -15px;
+    overflow:  hidden;
+}
+
+.fullwidth-boxes-area {
+    background: #F5F6FB;
+}
+
+.single-promo-box {
+    width:  50%;
+    height:  320px;
+    float:  left;
+    display:  table;
+    text-align:  center;
+    background: #fff;
+}
+
+.promo-box-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+    padding-top: 70px;
+    transition: .3s;
+}
+
+.promo-icon:before {
+    font-size: 70px;
+    margin: 0;
+}
+
+.single-promo-box h2 {
+    font-size: 28px;
+    position:  relative;
+    margin-bottom:  30px;
+    padding-bottom: 20px;
+}
+
+.boxed-btn {
+    background:  #337AB7;
+    color:  #fff;
+    display:  inline-block;
+    font-weight:  700;
+    text-transform:  uppercase;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.single-promo-box h2:after {
+    position:  absolute;
+    left: 50%;
+    bottom: 0;
+    width: 50px;
+    height:  2px;
+    content: "";
+    background: #DA879B;
+    margin-left: -25px;
+}
+
+.single-promo-box .boxed-btn {
+    opacity:  0;
+    visibility:  hidden;
+    transition: .3s;
+}
+
+.single-promo-box:hover .promo-box-tablecell {
+    padding-top: 0;
+}
+
+.single-promo-box:hover .boxed-btn {
+    opacity:  1;
+    visibility:  visible;
+}
+
+.single-promo-box:nth-child(2), .single-promo-box:nth-child(1) .boxed-btn {
+    background: #DA879B;
+}
+
+.single-promo-box:nth-child(3), .single-promo-box:nth-child(4) h2:after {
+    background: #7BBAD0;
+}
+
+.single-promo-box:nth-child(2) h2:after, .single-promo-box:nth-child(3) h2:after {
+    background: #fff;
+}
+.single-promo-box:nth-child(2), .single-promo-box:nth-child(3) {
+    color: #fff;
+}
+
+.single-promo-box:nth-child(4) .promo-icon {
+    color: #7BBAD0;
+}
+
+.single-promo-box:nth-child(1) .promo-icon {
+    color: #DA879B;
+}
+
+.single-promo-box:nth-child(2) .boxed-btn, .single-promo-box:nth-child(3) .boxed-btn {
+    background: #fff;
+    color: #000;
+}
+.right-side-contant {
+    padding: 98px 50px;
+}
+
+.section-title h4 {
+    color: #4A4E54;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.section-title h3 {
+    color:  #337AB7;
+    font-style:  italic;
+    font-weight: 300;
+}
+
+.section-title h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #44484d;
+    margin-bottom: 50px;
+}
+
+.right-side-contant h4 {
+    color: #4A4E54;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.right-side-contant p {
+    color: #909297;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.bordered-btn {
+    border: 2px solid #337AB7;
+    padding: 13px 40px;
+    color: #7bbad0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    transition: .3s;
+    margin-left: 10px;
+}
+
+.bordered-btn:hover {
+    background: #337AB7;
+}
