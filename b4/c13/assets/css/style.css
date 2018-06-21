@@ -1,0 +1,48 @@
+/*===========================
+*   [Table of Contents]
+* ===========================
+*
+*   01. Body = body
+*   02. 
+*
+*
+*   Home Version Css include on assets/css/home-version.css
+*   And Pqge Css Include on assets/css/page.css
+*
+*/
+
+/*==========================================
+    Author Custom Style Here
+==========================================*/
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Quicksand:400,500|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+h1,
+h2{
+    font-family: 'Merienda One', cursive;
+    line-height: 1.3;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #8093a8;
+    line-height: 1.8;
+    background-color: #F9FDFF;
+    font-weight: 300;
+    max-width: 100%;
+}
+a{
+    font-weight: 400;
+}
+
+
+
+/*home page css start */
+
+
+.mainmenu li a{
+    font-family: 'Quicksand', sans-serif;
+    color:#fff;
+}
+
