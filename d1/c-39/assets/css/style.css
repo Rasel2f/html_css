@@ -1,0 +1,173 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 80px 0
+}
+
+.gradient-overlay-wrapper {
+    background-image: url(../img/overty.jpg)
+}
+
+.gradient-overlay-wrapper:after {
+  background: #3056ad;
+background: -moz-linear-gradient(-45deg, #3056ad 29%, #c78fb7 100%);
+background: -webkit-linear-gradient(-45deg, #3056ad 29%,#c78fb7 100%);
+background: linear-gradient(135deg, #3056ad 29%,#c78fb7 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3056ad', endColorstr='#c78fb7',GradientType=1 );
+}
+.gradient-overlay-wrapper {
+    position:  relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.gradient-overlay-wrapper:after {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width:  100%;
+    height:  100%;
+    content:  '';
+    z-index:  -1;
+    opacity: .9;
+}
+.logo img {
+    max-width:  165px;
+}
+
+.mainmenu ul {
+    margin:  0;
+    padding:  0;
+    text-align:  right;
+    list-style:  none;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    color:  #fff;
+    opacity:  .7;
+    font-size:  16px;
+    display:  block;
+    padding: 12px;
+}
+
+.mainmenu li:hover a {
+    opacity: 1;
+}
+
+.header-area {
+    position:  relative;
+    z-index: 1;
+    padding: 20px 0;
+}
+
+.header-area:after {
+    position:  absolute;
+    left:  0;
+    bottom:  0;
+    width:  100%;
+    height:  1px;
+    content:  '';
+    background: #fff;
+    opacity: .1;
+}
+
+.mobile-screen {
+    position:  absolute;
+    right:  0;
+    bottom: 0;
+}
+
+.hero-text {
+    max-width: 450px;
+    color: #fff;
+    font-size:  17px;
+    padding: 200px 0;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 35px;
+}
+
+.hero-text p {
+    opacity: .7;
+}
+
+.hero-buttons {
+    margin-top: 50px;
+}
+
+.bordered-btn {
+    border: 1px solid #ddd;
+}
+
+.underline-btn {
+    position: relative;
+}
+.underline-btn:after {
+    left: 34px;
+    bottom: 10px;
+    height: 1px;
+    width: 117px;
+    content: "";
+    background: #fff;
+    position: absolute;
+    opacity: .4
+}
+.hero-buttons a {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 17px 33px;
+    border-radius: 50px;
+    display: inline-block;
+}
