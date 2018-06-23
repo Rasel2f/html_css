@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:400,700');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Droid Serif', serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #ecebf0;
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+body {
+    background: #EBEAF1;
+}
+
+.colored-bg {
+    background: #73DAE1;
+    color: #fff;
+    position: relative;
+    border-radius: 5px;
+}
+
+.lady-image {
+    position:  absolute;
+    right: -33px;
+    bottom: 0;
+}
+
+.slide-text {
+    padding-left:  100px;
+    max-width: 500px;
+    line-height:  25px;
+    font-size: 18px;
+    min-height: 640px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.top-ticker-text {
+    position:  relative;
+    font-size: 16px;
+    text-transform:  uppercase;
+}
+
+.top-ticker-text:after {
+    position:  absolute;
+    left: 0;
+    bottom: -3px;
+    width: 35px;
+    height:  2px;
+    background: #fff;
+    content: '';
+}
+
+.slide-text h1 {
+    font-size:  55px;
+    font-weight:  400;
+    line-height: 60px;
+    margin-top: 60px;
+    margin-bottom: 42px;
+}
+
+.boxed-btn {
+    background:  #F5F551;
+    display:  inline-block;
+    color: #333;
+    font-weight: 700;
+    text-transform:  uppercase;
+    padding: 14px 35px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: 0 10px 60px #f5f45e;
+}
+
+.slide-text .boxed-btn {
+    margin-top: 30px;
+}
