@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 40px 0}
+
+.section-title {
+    text-transform:  uppercase;
+    margin-bottom: 60px;
+}
+
+.single-product-box h4 {color: #6E6E6E;font-size:  20px;}
+
+.product-image-wrap {
+    display:  table;
+    width: 100%;
+    background:  #F1F1F1;
+    height: 320px;
+    padding:  10px;
+    text-align:  center;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+
+.product-image-wrap-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+.product-price {
+    font-size: 35px;
+    color: #F95344;
+    font-weight:  700;
+}
+
+.single-product-box {
+    text-align:  center;
+    position:  relative;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.single-product-box:after {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    height: 100%;
+    content:  '';
+    background: url(../img/world_map.png) no-repeat scroll #3b3b3b;
+    background-size: cover;
+    background-position: center top;
+    z-index:  -1;
+    transition: .3s;
+    opacity: 0;
+}
+
+.product-hover-links {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    z-index:  2;
+    text-align:  left;
+    padding: 0 20px;
+    transition:  .3s;
+    opacity: 0;
+    visibility:  hidden;
+}
+
+.product-hover-links a {
+    color:  #878787;
+    display:  inline-block;
+    height: 50px;
+    width: 30px;
+    text-align:  center;
+    font-size: 16px;
+    line-height: 44px;
+}
+
+.product-hover-links a.bordered-link {
+    border: 2px solid #FD4F48;
+    width: 50px;
+}
+
+.single-product-box:hover:after {
+    opacity:  1;
+    top: -10%;
+    height: 120%;
+    box-shadow: 0px 15px 31px #ccc7c7;
+}
+
+.single-product-box:hover .product-image-wrap {
+    background:  none;
+}
+
+.single-product-box:hover .product-hover-links {
+    top: -10px;
+    opacity:  1;
+    visibility: visible;
+}
+.single-product-box:hover h4 {
+    color: #d6cfcf;
+}
