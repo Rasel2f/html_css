@@ -1,0 +1,123 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color:  #8997A2;
+    font-size:  16px;
+    line-height:  1.8;
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+.single-pricing-box {
+    border:  1px solid #F3F7FB;
+    padding: 50px;
+    text-align:  center;
+    border-radius:  4px;
+    margin-bottom: 50px;
+    transition: .3s;
+}
+
+.pricing-amount {
+    font-size:  60px;
+    color:  #0CAAF7;
+    font-weight: 300;
+    line-height:  70px;
+    margin-bottom: 0;
+}
+
+.pricing-box-price span {
+    opacity: .4;
+}
+
+.price-box-content {
+    margin-top: 30px;
+    margin-bottom:40px;
+    border-top:  1px solid #F1F4FA;
+    padding-top: 31px;
+}
+
+.price-box-content ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+.price-box-content li {
+    padding-bottom:  14px;
+    line-height: 1.5;
+}
+
+.boxed-btn {
+    background:  #0CAAF7;
+    color:  #fff;
+    display:  inline-block;
+    padding: 15px 50px;
+    border-radius: 5px;
+    transition: .2s;
+    font-weight: 400;
+}
+
+.single-pricing-box h4 {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.single-pricing-box h4 span {
+    color:  #50A410;
+    font-size: 85%;
+    display: block;
+    margin-top: 10px;
+}
+
+.single-pricing-box.active h4 {
+    margin-top: -22px;
+    margin-bottom: 25px;
+}
+
+.single-pricing-box.active {
+    position:  relative;
+    z-index: 1;
+}
+
+.single-pricing-box.active:before {
+    position:  absolute;
+    left:  0;
+    top: -3px;
+    height:  3px;
+    width:  100%;
+    background:  #50A410;
+    content: '';
+}
+.single-pricing-box:hover {
+    box-shadow: 0 0 40px #F1F5F7;
+}
+
+.boxed-btn:hover {
+    background:  #333;
+    color: #fff;
+}
