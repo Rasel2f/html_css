@@ -1,0 +1,128 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+.single-pricing-box {
+    width: 33.33333%;
+    float:  left;
+    background: #fff;
+    box-shadow: 0 0 10px #ddd;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.pricing-tables {
+    overflow:  hidden;
+    padding: 30px 20px;
+}
+
+body {
+    color:  #3A3330;
+    font-size:  18px;
+    line-height: 1.9;
+}
+
+.pricing-heading {
+    background: #F9FAF9;
+    color:  #5A5D61;
+    font-size: 17px;
+    padding: 40px;
+}
+
+.pricing-heading h4 {
+    color:  #6C6C6C;
+    font-weight:  400;
+    font-size: 30px;
+}
+
+.pricing-heading h1 {
+    color: #333;
+    font-size: 40px;
+}
+
+.pricing-content ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+    line-height: 35px;
+}
+
+.pricing-content {
+    padding: 60px;
+}
+
+.active .pricing-content {
+    padding:75px 60px;
+}
+
+.pricing-btn {
+    color: #FB1748;
+    border: 1px solid #FB1748;
+    display:  inline-block;
+    padding: 12px 28px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.active .pricing-btn {
+    background: #FC153C;
+    color: #fff;
+}
+
+.active .pricing-heading {
+    background:  #FC153C;
+    color: #fff;
+}
+
+.active .pricing-heading h4, .active .pricing-heading h1 {
+    color: #fff;
+}
+.single-pricing-box.active {
+    position: relative;
+    z-index: 2;
+    margin-left: -.5%;
+    margin-right: -.5%;
+    width: 34.3333%;
+}
+.single-pricing-box.active:after {
+    position:  absolute;
+    right: -40px;
+    top: 20px;
+    content:  'Featured';
+    background:  #fff;
+    color: #FC153C;
+    transform: rotate(45deg);
+    font-size:  14px;
+    padding: 5px 50px;
+}
+.single-pricing-box.active {overflow: hidden;margin-top: 0}
