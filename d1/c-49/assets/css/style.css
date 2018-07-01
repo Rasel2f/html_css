@@ -1,0 +1,69 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+body {
+    font-size:  18px;
+    line-height: 1.7;
+}
+
+.tab-list {
+    border-bottom: 2px solid #E0E0E0;
+    margin: 0 0 30px;
+    padding:  0;
+    list-style:  none;
+}
+
+.tab-list li {
+    display:  inline-block;
+}
+
+.tab-list li a {
+    display: block;
+    padding: 10px 20px;
+    color: #666;
+    position:  relative;
+}
+
+.tab-list li.active a {
+    color: #FC153C;
+}
+
+.tab-list li.active a:after {
+    position:  absolute;
+    left:  0;
+    bottom: -2px;
+    width:  100%;
+    height:  2px;
+    background: #FC153C;
+    content: "";
+}
