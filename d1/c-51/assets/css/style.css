@@ -1,0 +1,114 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+
+.box-bg-1 {background-image: url(../img/project-bg-6.jpg)}
+.box-bg-2 {background-image: url(../img/box-bg-5.jpg)}
+.box-bg-3 {background-image: url(../img/boxed-bg-4.jpg)}
+.box-bg-4 {background-image: url(../img/boxed-bg-2.jpg)}
+.box-bg-5 {background-image: url(../img/boxed-bg-5.jpg)}
+.section-title {
+    margin-bottom:  50px;
+    font-size:  16px;
+    font-weight:  400;
+}
+
+.row.nopadding .col-md-4 {
+    padding: 0;
+}
+
+.row.nopadding {
+    margin: 0;
+}
+
+.single-boxed-item {
+    height:  600px;
+    background-size:  cover;
+    background-position:  center;
+    background-color: #ddd;
+    position:  relative;
+}
+
+.single-boxed-item.half-size {
+    height: 300px;
+}
+
+.boxed-item-hover {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    width:  90%;
+    height: 90%;
+    left:  5%;
+    top: 5%;
+    opacity:  0;
+    visibility:  hidden;
+    transition: .3s;
+}
+
+.boxed-item-hover:after {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width:  100%;
+    height:  100%;
+    background:  #333;
+    content: "";
+    z-index: -1;
+    opacity: .4;
+    border-radius: 5px;
+}
+
+.boxed-item-table {
+    display:  table;
+    width:  100%;
+    height: 100%;
+}
+
+.boxed-item-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+    text-align:  center;
+}
+
+.large-img {
+    color: #419507;
+    display:  inline-block;
+    font-size:  20px;
+    margin-bottom: 15px;
+}
+
+.single-boxed-item:hover .boxed-item-hover {
+    opacity:  1;
+    visibility:  visible;
+}
