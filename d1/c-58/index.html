@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Quickstart pack</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!-- AIzaSyDn_97XQZNZmHuT7v8hjuRMw5y_hnRCCYA -->
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14764.298372558502!2d89.84414212059735!3d22.313018516177234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a000df5c8d71a61%3A0x8495281bf14d76d0!2sRayenda%2C+Sharankhola!5e0!3m2!1sen!2sbd!4v1530800570005" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div id="googleMap" style="width:100%;height:400px;"></div>
+
+                        <script>
+                            function myMap() {
+                                var mapProp= {
+                                    center:new google.maps.LatLng(22.3138535,89.8530471),
+                                    zoom:17,
+                                };
+                                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                            }
+                        </script>
+
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_97XQZNZmHuT7v8hjuRMw5y_hnRCCYA&callback=myMap"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
