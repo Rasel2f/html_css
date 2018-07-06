@@ -1,0 +1,123 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+
+
+#map {height: 500px; width: 100%}
+ 
+
+ .section-padding.map-bg {
+     background-color: #34394f;
+     color: #fff;
+     padding-bottom: 0;
+     margin-bottom: 100px;
+ }
+
+ .section-title {
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 90px;
+     font-weight: 500;
+     margin-bottom: 50px
+ }
+
+ .section-des {
+     font-size: 110%;
+     color: #8a95a2;
+     margin-top: 21px;
+     line-height: 1.8
+ }
+
+ .section-des strong {
+     color: #fff
+ }
+
+ .location-direction ul {
+     padding: 0;
+     margin: 0;
+     list-style: none
+ }
+
+ .location-direction {
+     padding: 0;
+     margin: 0;
+     list-style: none
+ }
+
+ .location-direction h3 {
+     color: #cd9540;
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 50px
+ }
+
+ .location-direction h3 span {
+     font-size: 20px;
+     font-weight: 200;
+     margin-left: -10px
+ }
+
+ .location-direction p {
+     text-transform: uppercase;
+     font-size: 85%;
+     opacity: .5
+ }
+
+ .location-direction li {
+     position: relative;
+     padding-bottom: 25px;
+     margin-bottom: 20px;
+     margin-left: 50px
+ }
+
+ .location-direction li:after {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 32%;
+     height: 2px;
+     background: #fff;
+     content: "";
+     opacity: .2
+ }
+
+ .location-direction li:last-child:after {
+     display: none
+ }
+
+ .location-direction li:last-child {
+     padding-bottom: 0
+ }
+
+ #map {
+     margin-bottom: -80px;
+     box-shadow: 0 0 4px #000
+ }
