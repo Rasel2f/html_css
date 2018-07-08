@@ -1,0 +1,101 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+.section-title {
+    text-align:  center;
+    margin-bottom: 130px;
+    margin-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #52528D;
+    font-weight:  400;
+}
+
+body {
+    color: #A5A5A5;
+    line-height:  1.8;
+    font-size: 15px;
+}
+
+.features-wrap {
+    position:  relative;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+
+.hand-absolute {
+    position:  absolute;
+    right: -70px;
+    bottom: 0;
+}
+
+.features-wrap h3 {
+    font-size:  22px;
+    margin-bottom: 30px;
+}
+
+.features-area {
+    padding-top: 80px;
+}
+
+
+.manimenu-area {
+    background: #6A53A5;
+}
+
+.main-menu ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+.main-menu li {
+    display:  inline-block;
+}
+
+.main-menu li a {
+    color:  #fff;
+    padding:  20px;
+    display:  block;
+    font-size:  16px;
+    text-transform:  uppercase;
+}
+
+.main-menu li:hover {
+    background: #7054b9;
+}
+.is-sticky{
+    position: relative;
+    z-index: 999;
+}
