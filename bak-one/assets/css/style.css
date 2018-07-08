@@ -278,15 +278,17 @@ a:hover{ text-decoration: none}
     position:  absolute;
     top: 100px;
     background: #16a086bd;
-    left: 26px;
+    left: 50%;
     transform: scale(0);
     transition: .3s;
+    max-width: 210px;
+    margin-left: -105px;
 }
 
 .hover-link a i.fa {
     color:  #fff;
     padding: 10px 15px;
-    font-size: 29px;
+    font-size: 20px;
     transition: .2s;
 }
 
@@ -374,6 +376,7 @@ a:hover{ text-decoration: none}
     text-align: center;
     right: 40px;
     bottom: 18px;
-    z-index: 9999
+    z-index: 99999999;
+    line-height: 27px;
 }
 
