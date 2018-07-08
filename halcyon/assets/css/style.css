@@ -659,7 +659,8 @@ section {padding: 100px 0}
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    transition: .3s
+    transition: .3s;
+    z-index: 999;
 }
 
 .up-btn:hover,
