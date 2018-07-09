@@ -1,0 +1,310 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 75px 0}
+.service-box-bg {background-image: url(../img/service-1.jpg)}
+.service-box-bg-2 {background-image: url(../img/service-2.jpg)}
+.service-box-bg-3 {background-image: url(../img/service-3.jpg)}
+.section-title {
+    font-size:  20px;
+    color:  #606670;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-weight: 400;
+    color: #333;
+    text-transform:  uppercase;
+}
+
+.section-title h2 span {
+    color: #0EC7CD;
+}
+
+.service-box-bg {
+    position:  relative;
+    background-size:  cover;
+    background-position: center;
+    background-color:  #ddd;
+    height:  250px;
+    z-index: 1;
+    text-align:  center;
+    border-radius: 5px 5px 0 0;
+}
+
+.service-box-bg i {
+    background:  #25375B;
+    width: 90px;
+    height: 90px;
+    display: block;
+    color:  #fff;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position:  absolute;
+    bottom: -35px;
+    left: 50%;
+    margin-left: -45px;
+    transition: .3s;
+}
+
+.service-box-bg i:before {
+    font-size:  35px;
+    line-height: 80px;
+    margin: 0;
+}
+
+.single-service-box {
+    border: 1px solid #D8D8D8;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    color: #fff;
+}
+
+.single-service-box h2 {
+    margin:  0;
+    padding: 30px;
+    padding-top: 52px;
+    text-align:  center;
+    text-transform:  uppercase;
+    font-weight:  400;
+    font-size: 25px;
+    background: #fff;
+    color: #212121;
+    transition: .3s;
+}
+
+.single-service-box:hover .service-box-bg i {
+    background-color: #11CAD0;
+    border-color: #25375B;
+}
+
+.single-service-box:hover h2 {
+    background-color:  #25375B;
+    color: #fff;
+}
+
+.header-area {
+    background: #26395A;
+}
+
+.logo a {
+    font-size:  30px;
+    color:  #0EC7CD;
+    font-weight:  700;
+    text-transform:  uppercase;
+}
+
+.mainmenu ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+.mainmenu li {
+    display:  inline-block;
+}
+
+.mainmenu li a {
+    color:  #fff;
+    display:  block;
+    padding: 18px 20px;
+    font-size: 16px;
+}
+.mainmenu li {
+    position:  relative;
+}
+
+.mainmenu li ul {
+    text-align:  left;
+    position:  absolute;
+    left:  -20px;
+    top: 52px;
+    width:  200px;
+    z-index: 99;
+    background: #26395A;
+    opacity:  0;
+    visibility:  hidden;
+    transition: .3s;
+}
+
+.mainmenu li ul {
+    text-align:  left;
+    position:  absolute;
+    left:  0;
+    top: 57px;
+    width:  200px;
+    z-index: 99;
+    background: #26395A;
+    opacity:  0;
+    visibility:  hidden;
+    transition: .3s;
+}
+
+.mainmenu li ul li {
+    display:  block;
+    border-bottom: 1px solid #ddd;
+}
+
+.mainmenu li ul li:last-child {
+    border: none;
+}
+
+.mainmenu li:hover ul {
+    opacity:  1;
+    visibility:  visible;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    padding: 8px;
+}
+.mainmenu ul li:hover > a {
+    background: #0EC7CD;
+}
+
+.mainmenu ul li > a {
+    transition: .3s;
+}
+
+ .mainmenu li:nth-child(3) ul {
+     top:150%
+ }
+
+ .mainmenu li:nth-child(3):hover ul {
+     top: 100%
+ }
+
+ .mainmenu li:nth-child(4) ul {
+     left: 20px
+ }
+ .mainmenu li:nth-child(4):hover ul {
+     left: 0px
+ }
+
+ .mainmenu li:nth-child(5) ul {
+     transform: rotate(45deg);
+ }
+
+ .mainmenu li:nth-child(5):hover ul {
+     transform: rotate(0deg);
+ }
+.mainmenu li.mega-menu {
+    position:  static;
+}
+
+.mega-menu-wrap {
+    position:  absolute;
+    left:  0;
+    top: 100px;
+    width:  auto;
+    background: #f6f9f9;
+    padding:  20px;
+    opacity:  0;
+    visibility:  hidden;
+    z-index: -1;
+}
+
+.mainmenu li.mega-menu ul {
+    position:  relative;
+    left: auto;
+    top: auto;
+    opacity:  1;
+    visibility:  visible;
+    background:  none;
+    width:  auto;
+}
+
+.mainmenu li.mega-menu ul li {
+    border-bottom:  none;
+}
+
+.mainmenu li.mega-menu ul li a {
+    padding: 5px;
+    color: #333;
+}
+
+.mainmenu li.mega-menu {
+    text-align: left;
+}
+.menu-cta span {
+    color: #0EC7CD;
+    font-weight: 700;
+}
+
+.menu-cta {
+    text-align:  center;
+}
+
+.menu-cta h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight:  400;
+}
+
+.menu-cta .boxed-btn {
+    background: #0EC7CD;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.menu-cta .boxed-btn:hover {
+    box-shadow: 0 0 5px #2f2e2e;
+}
+.mega-menu-wrap {
+}
+
+.mainmenu ul li:hover .mega-menu-wrap {
+    visibility:  visible;
+    opacity: 1;
+    z-index: 999;
+    transition: .3s;
+    top: 100%;
+}
+.mega-menu-wrap h5 {
+    position:  relative;
+    z-index:  1;
+    display:  inline-block;
+    padding-bottom: 4px;
+}
+
+.mega-menu-wrap h5:after {
+    position:  absolute;
+    left:  0;
+    bottom:  0;
+    width: 100%;
+    height:  2px;
+    background:  #0EC7CD;
+    content:  '';
+}
