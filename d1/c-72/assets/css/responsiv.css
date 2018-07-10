@@ -1,0 +1,100 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .legals,
+    .credit {
+        text-align: center;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .bg-wraper {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .light-box {
+        margin-bottom: 20px;
+    }
+    .legals,
+    .credit {
+        text-align: center;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    section {
+        padding: 50px 0;
+    }
+    .section-title p:after,
+    .section-title p:before {
+        width: 80px;
+    }
+    .contact-details {
+    margin: 40px 0;
+}
+    .section-title p {
+    margin-bottom: 0;
+}
+    .subscribe {
+    padding: 60px 0;
+}
+    .team-member {
+    width: 150px;
+}
+    .owl-carousel {
+    margin-top: 20px;
+}
+    .prob-content h2 {
+    font-size: 30px;
+}
+    .prob-content p {
+    font-size: 20px;
+}
+    #work-area {
+    border-bottom: 1px solid #ddd;
+}
+    .icon {
+    line-height: 115px;
+    height: 100px;
+    width: 100px;
+}
+    .icon i.fa {
+    font-size: 30px;
+    }
+    .single-work-item {
+    margin-bottom: 30px;
+}
+    #por-tem .section-title p, #work-area .section-title p {
+    margin-bottom: 15px;
+}
+    #por-tem section {
+    padding: 30px 0;
+}
+    .header-content {
+    min-height: 400px;
+}
+    .header-content-inner p {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+    .header-content-inner h2 {
+    font-size: 35px;
+}
+    .single-slide-item {
+    padding: 20px 20px;
+}
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 567px) {}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 495px) {}
