@@ -1,0 +1,108 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+
+.feature-1 .feature-bg {background-image: url(../img/6658573e4a503c237920110214b758d1--parametric-design-rocking-chairs.jpg)}
+.feature-2 .feature-bg {background-image: url(../img/what-texture-best-describes-your-personality-playbuzz_describe-personality_mydeco-3d-planner-countertop-options-for-kitchen-art-deco-bedroom-set-feng-shui-health-couches-canopy.jpg)}
+.feature-3 .feature-bg {background-image: url(../img/section-bg-2.jpg)}
+.feature-4 .feature-bg {background-image: url(../img/section-bg-1.jpg)}
+
+.single-feature-item {
+    position:  relative;
+    z-index: 1;
+}
+
+.feature-bg {
+    position:  absolute;
+    left: 25%;
+    bottom: -50px;
+    width: 50%;
+    height:  100%;
+    background-size:  cover;
+    background-position:  center;
+    background-color: #ddd;
+}
+
+.feature-content {
+    background:  #fff;
+    box-shadow: 0 0 10px #cac6c6;
+    padding: 40px;
+    position:  relative;
+    padding-left: 100px;
+    padding-top: 64px;
+    border-bottom: 2px solid #FD5E3C;
+}
+
+body {
+    font-size:  17px;
+    line-height: 1.8;
+}
+
+.feature-content h2 {
+    font-weight:  400;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.feature-no {
+    position:  absolute;
+    left: 40px;
+    top: 20px;
+    opacity: .2;
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.feature-no:after {
+    position:  absolute;
+    left: 30px;
+    bottom: -10px;
+    width: 2px;
+    height: 70px;
+    background:  #333;
+    content: "";
+    transform: rotate(45deg);
+}
+
+.feature-2 .feature-content {
+    border-color: #39C998;
+}
+
+.feature-3 .feature-content {
+    border-color: #B57CF8;
+}
+
+.feature-4 .feature-content {
+    border-color: #FEB855;
+}
