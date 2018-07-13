@@ -1,0 +1,61 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+.single-circle-progressbar {
+    text-align: center;
+}
+
+.circle-progressbar-wrap {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+span.progressbar-percentage {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 799;
+    margin-top: -20px;
+}
+
+.single-circle-progressbar canvas {
+    transform: rotate(50deg);
+}
