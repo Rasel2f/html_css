@@ -1,0 +1,152 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-img img {
+    max-width: 70%;
+}
+
+.section-img {
+    text-align: right;
+}
+
+.section-text {
+    border: 8px solid #EEEEEE;
+    padding: 20px;
+    position: relative;
+    background: #fff;
+    max-width: 470px;
+    margin-top: -100px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    height: 225px;
+}
+.social-links a {
+    display: inline-block;
+    background-color: #EFEFEF;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 5px 0;
+    transition: .3s;
+}
+
+.social-links {
+    position: absolute;
+    right: -24px;
+    width: 40px;
+    height: 100%;
+    top: 0;
+    display: table;
+}
+
+.social-links-wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section-text h2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.right-side .section-img {
+    text-align: left;
+}
+
+.right-side .section-text {
+    float: right;
+}
+
+.right-side .social-links {
+    right: auto;
+    left: -24px;
+}
+
+.section-text p {
+    text-align: justify;
+}
+
+.right-side .section-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.social-links-wrap ul {
+    margin: 0;
+    padding: 0;
+}
+
+.social-links-wrap li {
+    list-style: none;
+}
+li:hover a i.fa {
+    color: #fff;
+}
+li.facebook i.fa{
+    color: #4867B4
+}
+li.facebook:hover a {
+    background: #4867B4;
+}
+li.twitter i.fa{
+    color: #3DAFFF
+}
+li.twitter:hover a{
+    background: #3DAFFF;
+}
+li.google-plus i.fa{
+    color: #ED453C
+}
+li.google-plus:hover a{
+    background: #ED453C;
+}
+li.linkedin i.fa{
+    color: #2467BF
+}
+li.linkedin:hover a{
+    background: #2467BF;
+}
+i.fa {
+    transition: .3s;
+}
+.section-title h2 {
+    font-weight: 600;
+}
