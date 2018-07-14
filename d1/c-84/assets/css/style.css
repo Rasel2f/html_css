@@ -1,0 +1,123 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {padding: 80px 0;margin: 80px 0; background: #EFEFEF}
+
+.flippedbox {
+    margin: 0 auto;
+    height: 300px;  
+    position: relative;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    margin-bottom: 50px;
+}
+
+
+.flippedbox .front {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 900;
+    text-align: center;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    width: 100%;
+}
+
+.flippedbox .back {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.flippedbox.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+.flippedbox.flip .back {
+    z-index: 1000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}
+
+.flipped-boxed-service {
+    text-align: center;
+    background: #fff;
+    padding: 25px;
+    border-bottom: 5px solid #000;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.flipped-boxed-service-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.back .flipped-boxed-service{
+    background-color: #000;
+    color: #fff;
+}
+
+.flipped-boxed-service h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.flipped-boxed-service i.fa {
+    font-size: 110px;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    margin-bottom: 25px;
+}
