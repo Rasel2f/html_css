@@ -1,0 +1,156 @@
+/*Base CSS*/
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype'),
+        url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, input:focus, textarea:focus, button:focus {outline: 0 solid}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: normal;
+    font-family: 'Asiyah Script';
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{ text-decoration: none}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+html, body {height: 100%}
+
+.slide-bg-1 {background-image: url(../img/1.jpg)}
+.slide-bg-2 {background-image: url(../img/bg-1.jpg)}
+.slide-bg-3 {background-image: url(../img/bg-2.jpg)}
+.slide-bg-4 {background-image: url(../img/bg-3.jpg)}
+.slide-bg-5 {background-image: url(../img/home-slideshow-panel-03.jpg)}
+
+.single-slide-item {
+    height:  100%;
+    display:  table;
+    width:  100%;
+    background-size:  cover;
+    background-position:  center;
+    background-color: #ddd;
+    position:  relative;
+    z-index: 1;
+}
+
+.slide-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+    color: #fff;
+    font-size: 21px;
+}
+
+.single-slide-item:after {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    bottom:  0;
+    right:  0;
+    background:  #333;
+    content:  "";
+    z-index:  -1;
+    opacity: .4;
+}
+
+.slide-tablecell h1 {
+    font-size: 140px;
+    margin-bottom: 0;
+}
+
+.boxed-btn {
+    background:  #D8085E;
+    color:  #fff;
+    display:  inline-block;
+    padding: 14px 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 25px;
+    transition: .3s
+}
+
+.boxed-btn:hover {
+    color: #fff;
+    background: #1D1F21;
+}
+
+.homepage-slides,
+.homepage-slides div {
+    height: 100%;
+}
+
+.homepage-slides div.slide-tablecell,
+.homepage-slides div.slide-tablecell div,
+.homepage-slides div.owl-nav,
+.homepage-slides div.owl-nav div,
+.homepage-slides div.owl-dots,
+.homepage-slides div.owl-dots div {
+    height: auto;
+}
+.homepage-slides .owl-nav div {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 35px;
+    left: 30px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.homepage-slides .owl-nav div.owl-next {
+    left: auto;
+    right: 30px;
+}
+
+.homepage-slides .owl-dots .owl-dot {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 15px;
+    border: 2px solid #1D1F21;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.homepage-slides .owl-dots img {
+    height:  100%;
+    width: 100p%;
+}
+
+.homepage-slides .owl-dots {
+    position:  absolute;
+    right:  5%;
+    bottom: 20px;
+}
+.homepage-slides .owl-dots .owl-dot.active {
+    -webkit-filter: none;
+    filter: none;
+    border-color: #D8085E;
+    height: 105px;
+}
