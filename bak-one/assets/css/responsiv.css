@@ -1,0 +1,97 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (max-width: 1200px) {
+
+
+    .hover-link a i.fa {
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+    .hover-link {
+        margin-left: -85px;
+    }
+    .contact-form {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+    .hover-link {
+        margin-left: 
+    }
+    .contact-form {
+        margin-bottom: 20px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 567px) {
+    #bannar {
+        padding: 40px 0;
+    }
+    .baner-content p {
+        margin: 0;
+    }
+
+
+    .baner-content h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .baner-content .btn {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .projects-titles {
+        margin: 0 0 25px;
+    }
+
+    .projects-titles li {
+        display: block;
+        padding: 10px;
+        margin-right: 0;
+        font-size: 11px;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .section-title {
+        margin: 0;
+    }
+    .hover-link {
+        margin-left: -85px;
+    }
+    .contact-form {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 495px) {
+    .projects-titles li {
+        display: block;
+        border-bottom: 1px solid;
+    }
+    .single-project-item {
+    height: 150px;
+    width: 150PX;
+    }
+    .project-hover h4 {
+        left: 20%;
+    }
+    .hover-link {
+        margin-left: -80px;
+    }
+}
