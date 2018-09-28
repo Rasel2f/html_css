@@ -79,4 +79,19 @@
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (max-width: 495px) {}
+@media only screen and (max-width: 495px) {
+    .projects-titles li {
+        display: block;
+        border-bottom: 1px solid;
+    }
+    .single-project-item {
+    height: 150px;
+    width: 150PX;
+    }
+    .project-hover h4 {
+        left: 20%;
+    }
+    .hover-link {
+        margin-left: -120px;
+    }
+}
