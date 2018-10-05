@@ -8,7 +8,7 @@
         font-size: 20px;
     }
     .hover-link {
-        margin-left: -85px;
+        margin-left: -105px;
     }
     .contact-form {
         margin-bottom: 20px;
@@ -25,7 +25,7 @@
 @media only screen and (max-width: 767px) {
 
     .hover-link {
-        margin-left: 
+        margin-left: -85px
     }
     .contact-form {
         margin-bottom: 20px;
