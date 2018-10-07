@@ -72,20 +72,6 @@ jQuery(document).ready(function ($) {
     })
     wow.init();
 
-
-    // Menu For Xs Mobile Screens
-    if ($(window).height() < 450) {
-        $('.offcanvas-menu').addClass('xs-screen');
-    }
-
-    $(window).on('resize', function () {
-        if ($(window).height() < 450) {
-            $('.offcanvas-menu').addClass('xs-screen');
-        } else {
-            $('.offcanvas-menu').removeClass('xs-screen');
-        }
-    });
-
     // Magnific Popup
     $(".video-play-btn").magnificPopup({
         type: 'video'
