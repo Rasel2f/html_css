@@ -252,17 +252,6 @@ ul > li {
 .offcanvas-footer li:hover a {
     color: #267DF4;
 }
-.offcanvas-menu.xs-screen {
-  overflow-y: auto;
-}
-
-.offcanvas-menu.xs-screen ul {
-  margin-top: 40px;
-}
-
-.offcanvas-menu.xs-screen .offcanvas-footer {
-  position: relative;
-}
 
 /*Hero Area*/
 
