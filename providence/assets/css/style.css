@@ -162,7 +162,7 @@ ul > li {
     transition: left 0.7s cubic-bezier(0.545, 0, 0.05, 1);
 }
 
-.offcanvas-menu.open {
+.offcanvas-menu.view {
     left: 0;
 }
 
