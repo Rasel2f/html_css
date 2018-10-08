@@ -726,31 +726,28 @@ ul.social-buttons li:last-child {
 }
 .light-box {
     background-color: #fff;
-    -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4;
-    -moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
-    box-shadow: 0px 3px 0px 0px #f0f2f4;
     padding: 20px 0;
 }
 
 .light-box:hover,
 .light-box:focus {
-    -webkit-box-shadow: 0px 3px 0px 0px #3dc9b3;
-    -moz-box-shadow: 0px 3px 0px 0px #3dc9b3;
-    box-shadow: 0px 3px 0px 0px #3dc9b3;
+    -webkit-box-shadow:0 0 5px #4c928785;
+    -moz-box-shadow: 0 0 5px #4c928785;
+    box-shadow: 0 0 5px #4c928785;
 }
 
 .box-hover {
-    transition: all 500ms ease-in-out;
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
 }
 
 .box-hover:hover,
 .box-hover:focus {
-    transform: translate(0, -15px);
-    -webkit-transform: translate(0, -15px);
-    -ms-transform: translate(0, -15px);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
 }
 
 /*=== footer ===*/
