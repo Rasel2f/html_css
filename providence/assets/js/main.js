@@ -30,13 +30,13 @@ jQuery(document).ready(function ($) {
     // Navigation
     $('.navigation').on('click', function (e) {
         e.preventDefault();
-        $(this).addClass('open');
-        $('.offcanvas-menu').toggleClass('open');
+        $(this).addClass('view');
+        $('.offcanvas-menu').toggleClass('view');
 
-        if ($('.offcanvas-menu').hasClass('open')) {
+        if ($('.offcanvas-menu').hasClass('view')) {
             $('.menu-close').on('click', function (e) {
                 e.preventDefault();
-                $('.offcanvas-menu').removeClass('open');
+                $('.offcanvas-menu').removeClass('view');
             })
         }
     });
