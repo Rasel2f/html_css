@@ -1,0 +1,115 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .sale-table table th:first-child,
+    .sale-table table td:first-child {
+        width: 45%;
+    }
+
+    .account-sale-title {
+        font-size: 45px;
+    }
+
+    .single-slide-item h2 {
+        font-size: 50px;
+        line-height: 1.1;
+    }
+
+    .single-slide-item p {
+        margin: 15px 0 45px;
+    }
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Tablet and Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) {
+    .main-menu .navbar-collapse {
+        background: #333;
+    }
+
+    .main-menu li a {
+        display: block;
+        border-bottom: 1px solid #636262;
+        color: #fff;
+    }
+
+    caption h2 {
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+    .account-sale-title {
+        font-size: 25px;
+    }
+
+    .single-service-item {
+        border-bottom: 1px solid #3333334d;
+        margin-top: 20px;
+    }
+
+    [class |=col]:last-child .single-service-item {
+        border: none;
+    }
+
+    .right-side-img {
+        right: 0;
+        z-index: -1;
+        opacity: .1;
+    }
+
+    .single-slide-item h2 {
+        font-size: 35px;
+    }
+
+    .single-slide-item p {
+        margin: 20px 0 30px;
+    }
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .footer-menu li a {
+        padding: 5px;
+    }
+
+    .widget:after {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: inherit;
+        bottom: 0;
+        content: '';
+        height: 1px;
+        width: inherit;
+        background: #404040;
+    }
+
+    .sale-table {
+        margin-bottom: 15px;
+    }
+
+    .p-r-img {
+        right: 0;
+        top: 50%;
+        transform: translate(-10%, -50%);
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    .section-heading h2 {
+        font-size: 20px;
+    }
+
+    .section-heading {
+        margin-bottom: 10px
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
