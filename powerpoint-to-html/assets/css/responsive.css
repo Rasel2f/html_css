@@ -1,0 +1,166 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .tea-section-bottom-menu li img {
+        width: 95px;
+    }
+
+    /**/
+    .family-area .tea-section-bottom-menu {
+        right: auto;
+        left: 0;
+    }
+
+    .family-btn li {
+        font-size: 35px;
+    }
+
+    .family-btn li:after {
+        left: -82px;
+        border-width: 41px;
+    }
+
+    /**/
+
+    .overview {
+        margin: 25px;
+        bottom: 0
+    }
+
+    .col.custom {
+        padding-bottom: 15px;
+    }
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /**/
+
+    .overview {
+        margin: 25px;
+        bottom: 0
+    }
+}
+
+
+/* Tablet and Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) {
+    
+    .right-logo {
+        right: 50%;
+        top: 0;
+        transform: translateX(50%);
+    }
+
+    #header-area li a:after {
+        display: none;
+    }
+
+    #header-area ul {
+        background: #2b2b2b;
+    }
+
+    #header-area li {
+        margin: 0;
+        border-bottom: 1px solid;
+    }
+
+    #header-area li:last-child {
+        border: none;
+    }
+
+    .tea-section-bottom-menu li img {
+        width: 65px;
+    }
+
+    .video-btn img {
+        width: 300px;
+    }
+
+    .first-tea-area {
+        height: 455px;
+    }
+
+    .bottom {
+        min-height: calc(455px - 125px);
+    }
+
+    /**/
+
+    .col.custom {
+        padding-bottom: 15px;
+    }
+
+}
+
+.wheel {
+    max-height: 330px;
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    
+    .title {
+        font-size: 25px;
+    }
+
+    .tea-section-bottom-menu li img {
+        width: 55px;
+    }
+
+    .tea-section-bottom-menu li {
+        margin-right: 10px;
+    }
+
+    .video-btn img {
+        width: 200px;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    /****/
+    .family-area .title {
+        padding: 10px 5px;
+        top: 20px;
+        font-size: 20px;
+    }
+
+    .family-area .title:before,
+    .family-area .title:after {
+        font-size: 49px;
+    }
+
+    .family-area .title:before {
+        left: -9px;
+        top: -13px;
+    }
+
+    .family-area .title:after {
+        right: -9px;
+        top: -13px;
+        left: auto;
+    }
+
+
+    .family-btn li {
+        font-size: 35px;
+    }
+
+    .family-btn li:after {
+        left: -82px;
+        border-width: 41px;
+    }
+
+    .heading-btn {
+        font-size: 24px;
+        line-height: 44px;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
