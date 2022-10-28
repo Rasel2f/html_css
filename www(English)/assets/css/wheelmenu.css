@@ -1,0 +1,63 @@
+/* Required Stylesheets */
+.wheel-button {
+  position: relative;
+}
+
+.wheel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 230px; /* this will determine the diameter of the circle  */
+  height: 230px; /* this will determine the diameter of the circle  */
+  visibility: hidden;
+  position: relative;
+  display: none;
+}
+
+.wheel li {
+  overflow: hidden;
+  float:left;
+}
+
+.wheel li a {
+  display: block;
+}
+
+
+
+/*My add*/
+
+.wrapper {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative
+}
+
+a {
+    text-decoration: none;
+}
+
+.wheel-button {
+    background: #FFAD00;
+    padding: 10px 8px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 50% auto;
+    border: 2px solid #22313F;
+}
+
+
+.wheel li a {
+    width: 60px;
+    height: 60px;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wheel li a img {width: 50px;height: 50px; border-radius: 10px}
+
